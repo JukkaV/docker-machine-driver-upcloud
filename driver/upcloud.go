@@ -204,7 +204,7 @@ func (d *Driver) Create() error {
 			Action:  upcloud.CreateServerStorageDeviceActionClone,
 			Storage: d.Template,
 			Title:   "disk1",
-			Size:    30,
+			Size:    25,
 			Tier:    upcloud.StorageTierMaxIOPS,
 		},
 	}
